@@ -12,11 +12,9 @@ export const Content = styled.div`
   min-height: 80vh;
   width: 65%;
   border-radius: 2.5rem;
-  /* background-color: rgba(255, 255, 255, 0.2); */
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
   z-index: 5;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
-    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   display: grid;
   grid-template-columns: 25% 75%;
@@ -27,9 +25,9 @@ export const SideBar = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 2.5rem 0 0 2.5rem;
-  padding: 8px;
+  padding: 20px 0;
 
   .profile {
     display: flex;
@@ -76,8 +74,23 @@ export const SideBar = styled.div`
       &:hover {
         background-color: #7cd782;
         color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
     }
+  }
+
+  .quotation {
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    min-height: 4rem;
+    background-color: rgba(130, 240, 169, 0.9);
+    padding: 1rem;
+    width: 74%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 14px;
   }
 `;
 
@@ -105,6 +118,8 @@ export const MainContent = styled.div`
       border-radius: 0.5rem;
       padding: 1rem;
       width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
       img {
         width: 4rem;

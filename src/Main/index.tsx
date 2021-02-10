@@ -23,6 +23,11 @@ const Main: React.FC = () => {
             <li>Fifth</li>
             <li>Sixth</li>
           </ul>
+
+          <div className="quotation">
+            "Before you go too far judging people,live up to the standard you
+            demand from everyone else"
+          </div>
         </SideBar>
 
         <MainContent>
