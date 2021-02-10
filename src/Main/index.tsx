@@ -24,8 +24,95 @@ const Main: React.FC = () => {
             <li>Sixth</li>
           </ul>
         </SideBar>
+
         <MainContent>
-          <h1>MainContent</h1>
+          <h1>Collaborations</h1>
+
+          <ul className="items">
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+
+            <li className="item-container">
+              <img
+                src="https://images.pexels.com/photos/6158918/pexels-photo-6158918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Project avatar"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam, accusamus voluptates deserunt nostrum sed assumenda
+                esse voluptatibus non ut iste.
+              </p>
+            </li>
+          </ul>
         </MainContent>
       </Content>
     </Container>

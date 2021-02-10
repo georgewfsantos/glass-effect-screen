@@ -27,8 +27,9 @@ export const SideBar = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 2.5rem 0 0 2.5rem;
+  padding: 8px;
 
   .profile {
     display: flex;
@@ -55,11 +56,28 @@ export const SideBar = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
-    padding: 0.5rem;
-    min-height: 6rem;
-    background: grey;
+    padding: 1rem;
+    min-height: 16rem;
+    width: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+      background: #82f0a9;
+      width: 80%;
+      border-radius: 0.5rem;
+      transition: background-color 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #7cd782;
+        color: #fff;
+      }
+    }
   }
 `;
 
@@ -68,4 +86,41 @@ export const MainContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem;
+
+  h1 {
+    color: #434343;
+  }
+
+  .items {
+    list-style: none;
+    width: 100%;
+
+    .item-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      max-height: 5rem;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      width: 100%;
+
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 2rem;
+        margin-right: 0.5rem;
+      }
+
+      p {
+        max-width: 90%;
+        color: green;
+      }
+
+      & + li {
+        margin-top: 0.5rem;
+      }
+    }
+  }
 `;
