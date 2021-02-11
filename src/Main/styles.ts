@@ -36,7 +36,7 @@ export const SideBar = styled.div`
     justify-content: space-between;
     width: 100%;
     padding: 0.5rem;
-    color: green;
+    margin-top: -14px;
 
     img {
       width: 5rem;
@@ -65,14 +65,14 @@ export const SideBar = styled.div`
       align-items: center;
       justify-content: center;
       height: 2rem;
-      background: #82f0a9;
+      background: linear-gradient(to bottom left, #fe5858, #ee9617);
       width: 80%;
       border-radius: 0.5rem;
       transition: background-color 0.2s;
       cursor: pointer;
 
       &:hover {
-        background-color: #7cd782;
+        background-color: #f67737;
         color: #fff;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,12 +85,13 @@ export const SideBar = styled.div`
     align-items: center;
     height: 9rem;
     min-height: 4rem;
-    background-color: rgba(130, 240, 169, 0.9);
+    background: linear-gradient(to bottom left, #fe5858, #ee9617);
     padding: 1rem;
     width: 74%;
     text-align: center;
     border-radius: 0.5rem;
     font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 `;
 
@@ -130,7 +131,6 @@ export const MainContent = styled.div`
 
       p {
         max-width: 90%;
-        color: green;
       }
 
       & + li {
